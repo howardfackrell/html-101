@@ -1,0 +1,14 @@
+p {
+  font-size: 20px;
+  color: black;
+}
+
+.my-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.blue {
+  background-color: green;
+}
