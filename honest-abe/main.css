@@ -1,7 +1,15 @@
 body {
-   background: url('images/abe.jpg') no-repeat center center fixed;
+   background: url('https://dl.dropboxusercontent.com/u/21449532/html-101/honest-abe/images/abe.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.20);
+  margin-left: 60px;
+  padding: 50px 64px;
+  width: 560px;
+  min-height: 800px;
 }
