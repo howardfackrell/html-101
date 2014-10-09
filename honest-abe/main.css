@@ -60,3 +60,35 @@ h2 {
   padding-left: 3px;
   margin-bottom: 12px;
 }
+
+ul.contact {
+  list-style: none;
+}
+
+ul.contact li {
+  display:inline-block;
+}
+
+.icon {
+  display: block;
+  /*display: inline-table;*/
+  width: 40px;
+  height: 40px;
+  margin: 3px;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.twitter {
+  background: url("images/twitter.png") no-repeat center center;
+}
+
+.email {
+  background: url("images/email.png") no-repeat center center;
+}
+
+.facebook {
+  background: url("images/fb.png") no-repeat center center;
+}
