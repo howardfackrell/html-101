@@ -71,24 +71,24 @@ ul.contact li {
 
 .icon {
   display: block;
-  /*display: inline-table;*/
   width: 40px;
   height: 40px;
   margin: 3px;  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 .twitter {
-  background: url("images/twitter.png") no-repeat center center;
+  background-image: url("images/twitter.png");  
 }
 
 .email {
-  background: url("images/email.png") no-repeat center center;
+  background-image: url("images/email.png") ;
 }
 
 .facebook {
-  background: url("images/fb.png") no-repeat center center;
+  background-image: url("images/fb.png");
 }
